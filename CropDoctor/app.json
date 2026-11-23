@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "CropDoctor",
+    "slug": "cropdoctor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#123D24",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.cropdoctor.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image",
+      "expo-asset",
+      "react-native-fast-tflite",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "CropDoctor uses the camera to photograph crop leaves. Photos stay on your phone.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "backgroundColor": "#F4F8F3"
+        }
+      ]
+    ],
+    "scheme": "cropdoctor",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "ecc246f7-1610-4517-9640-6206225b64ef"
+      }
+    },
+    "owner": "mgxcoder"
+  }
+}

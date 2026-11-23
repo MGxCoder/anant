@@ -1,0 +1,22 @@
+{
+  "rgb": {
+    "width": 29,
+    "height": 29,
+    "rgbSha256": "504fc4e9c097f7b325851b19b52c6782d54fb0c4a27436da2250211bacc17d31"
+  },
+  "rgba": {
+    "width": 29,
+    "height": 29,
+    "rgbSha256": "504fc4e9c097f7b325851b19b52c6782d54fb0c4a27436da2250211bacc17d31"
+  },
+  "gray": {
+    "width": 29,
+    "height": 29,
+    "rgbSha256": "cc9b4f45d2499ac1140922b1f9bb2786833bab33bdd6e3e8b7ee28c6db085661"
+  },
+  "allfilters": {
+    "width": 25,
+    "height": 25,
+    "rgbSha256": "0ca4c0fe03c631053bc9b4e9c14ad484c072c8114c8b507d2e632d9f6d1a30f2"
+  }
+}
